@@ -38,6 +38,7 @@
             },
             "visible": true,
             "shape": "process",
+            "zIndex": 1,
             "ports": {
               "groups": {
                 "top": {
@@ -121,7 +122,6 @@
               ]
             },
             "id": "eceba923-3022-4e61-af13-5b6e9cd9088e",
-            "zIndex": 1,
             "data": {
               "type": "tm.Process",
               "name": "Estação \nElevatoria",
@@ -158,6 +158,7 @@
             },
             "visible": true,
             "shape": "process",
+            "zIndex": 2,
             "ports": {
               "groups": {
                 "top": {
@@ -241,7 +242,6 @@
               ]
             },
             "id": "df2584f0-7d34-47d8-a43b-a3a0aba295f6",
-            "zIndex": 2,
             "data": {
               "type": "tm.Process",
               "name": "Portal do Cliente",
@@ -278,6 +278,7 @@
             },
             "visible": true,
             "shape": "process",
+            "zIndex": 3,
             "ports": {
               "groups": {
                 "top": {
@@ -361,7 +362,6 @@
               ]
             },
             "id": "72aa3094-94eb-485e-92ae-329a95a7c23a",
-            "zIndex": 3,
             "data": {
               "type": "tm.Process",
               "name": "Dashbord",
@@ -398,6 +398,7 @@
             },
             "visible": true,
             "shape": "process",
+            "zIndex": 4,
             "ports": {
               "groups": {
                 "top": {
@@ -481,7 +482,6 @@
               ]
             },
             "id": "1bb37c8e-2e30-4dcf-b54d-fa76f0cc8a27",
-            "zIndex": 4,
             "data": {
               "type": "tm.Process",
               "name": "API Pagamento",
@@ -518,6 +518,7 @@
             },
             "visible": true,
             "shape": "process",
+            "zIndex": 5,
             "ports": {
               "groups": {
                 "top": {
@@ -601,7 +602,6 @@
               ]
             },
             "id": "940618ab-32f2-479e-a0fa-ce5c717ebb3a",
-            "zIndex": 5,
             "data": {
               "type": "tm.Process",
               "name": "AAP de Campo",
@@ -638,6 +638,7 @@
             },
             "visible": true,
             "shape": "process",
+            "zIndex": 6,
             "ports": {
               "groups": {
                 "top": {
@@ -721,7 +722,6 @@
               ]
             },
             "id": "a1a82ee1-a8b1-4c86-a2b3-554578ab88c5",
-            "zIndex": 6,
             "data": {
               "type": "tm.Process",
               "name": "Gatway\nCentral",
@@ -735,52 +735,6 @@
               "isWebApplication": false,
               "privilegeLevel": "",
               "threats": []
-            }
-          },
-          {
-            "shape": "flow",
-            "attrs": {
-              "line": {
-                "stroke": "#333333",
-                "targetMarker": {
-                  "name": "block"
-                },
-                "sourceMarker": {
-                  "name": ""
-                },
-                "strokeDasharray": null
-              }
-            },
-            "width": 200,
-            "height": 100,
-            "zIndex": 10,
-            "connector": "smooth",
-            "data": {
-              "type": "tm.Flow",
-              "name": "Fluxo de Dados",
-              "description": "",
-              "outOfScope": false,
-              "isTrustBoundary": false,
-              "reasonOutOfScope": "",
-              "hasOpenThreats": false,
-              "isBidirectional": false,
-              "isEncrypted": false,
-              "isPublicNetwork": false,
-              "protocol": "",
-              "threats": [],
-              "trustBoundaryIds": []
-            },
-            "labels": [
-              "Fluxo de Dados"
-            ],
-            "id": "fe8d2ef8-8367-4ef7-8001-5bc8f69b8b10",
-            "source": {
-              "x": 120,
-              "y": -230
-            },
-            "target": {
-              "x": 220,
-              "y": -130
             }
           }
         ]
